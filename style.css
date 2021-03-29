@@ -1,0 +1,302 @@
+body{
+    background-image: url(wp6000917.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header{
+    background: linear-gradient(270deg, transparent, darkgrey 130%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+.h1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 35px;
+    text-shadow: 15px -8px 4px black, 3px 0 2px red;
+    color: white;
+}
+
+/*===================*/
+
+.div1{
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+    margin-top: 60px;
+    width: 500px;
+    height: 30px;
+}
+.button, .but{
+    background-color: cyan;
+    width: 100px;
+    height: 30px;
+    border: 4px groove cyan;
+    border-radius: 10px;
+    box-shadow: 10px -6px 2px cyan, -10px 6px 2px cyan;
+    transition: 0.7s;
+    font-style: italic;
+    cursor: pointer;
+}
+.button{
+    margin-left: 45px;
+}
+.but{
+    margin-left: 50px;
+}
+.button:hover, .but:hover{
+    color: white;
+    background-color: greenyellow;
+    transform: scale(1.2);
+    transition: 0.5s;
+    box-shadow: 0 0 10px greenyellow, 0 0 20px greenyellow;
+    border: 4px groove greenyellow;
+    text-shadow: 7px -4px 2px black, 2px 0 2px red;
+    font-size: 15px;
+}
+
+.poisk{
+    background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+    height: 35px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+.input_tipe{
+    width: 465px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+}
+.input{
+    width: 400px;
+    height: 35px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.find{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 10px;
+}
+.magnifier{
+    width: 35px;
+    height: 35px;
+}
+
+.div2{
+    background-color: rgba(255, 255, 255, 0);
+    width: 1000px;
+    height: 350px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+.line{
+    background: linear-gradient(180deg, transparent, rgb(0, 255, 255) 130%);
+    width: 30px;
+    height: 350px;
+    border-radius: 20px;
+}
+.bloks{
+    background-color: rgba(255, 255, 255, 0);
+    width: 940px;
+    height: 350px;
+}
+.divBlocks{
+    width: 970px;
+    height: 155px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+.divs{
+    background-color: rgba(255, 0, 0, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.img{
+    width: 120px;
+    height: 150px;
+    margin-left: 14.5px;
+    border-radius: 50px;
+}
+.paragraf{
+    width: 970px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+}
+.p{
+    margin: auto;
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+}
+.description{
+    background-color: rgba(255, 0, 0, 0);
+    width: 970px;
+    height: 165px;
+    display: flex;
+}
+.des{
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 165px;
+    margin: auto;
+}
+.desP{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
+
+.div3{
+    background-color: rgba(255, 255, 255, 0);
+    width: 1000px;
+    height: 750px;
+    margin: auto;
+    margin-top: 20px;
+}
+.div3Block{
+    display: flex;
+    width: 1000px;
+    height: 220px;
+    background-color: rgba(0, 0, 255, 0);
+}
+.layer {
+    overflow: auto; /* Добавляем полосы прокрутки */
+    width: 700px; /* Ширина блока */
+    height: 150px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+    margin: auto;
+    color: white;
+}
+.divimg{
+    background-image: url(man.png);
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    border-radius: 500px;
+}
+
+.div3block2{
+    background-color: rgba(255, 0, 0, 0);
+    width: 1000px;
+    height: 220px;
+    display: flex;
+    color: white;
+}
+.layer2{
+    overflow: auto;
+    width: 700px;
+    height: 150px;
+    margin: auto;
+}
+.divimg2{
+    background-image: url(man2.png);
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    border-radius: 500px;
+}
+
+.div3block3{
+    background-color: rgba(0, 0, 0, 0);
+    width: 1000px;
+    height: 220px;
+    display: flex;
+    color: white;
+}
+.layer3{
+    overflow: auto;
+    width: 700px;
+    height: 150px;
+    color: white;
+    margin: auto;
+}
+.divimg3{
+    background-image: url(man3.png);
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    border-radius: 500px;
+}
+
+.div3Block, .div3block2, .div3block3{
+    margin-top: 15px;
+}
+hr{
+    margin-top: 15px;
+    color: white;
+}
+
+.pfooter{
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.div4{
+    background-color: rgba(255, 255, 255, 0);
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 15px;
+}
+.firstblock{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    background-color: rgba(255, 0, 0, 0);
+}
+.first, .second{
+    width: 400px;
+    height: 250px;
+    background-image: url(programming.png);
+    background-size: 100%;
+    margin: auto;
+    border-radius: 70px;
+}
+.third{
+    width: 400px;
+    height: 250px;
+    background-image: url(programming.gif);
+    background-size: 100%;
+    margin: auto;
+    border-radius: 70px;
+}
+.text1{
+    overflow: auto;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+
+
+.instagram_png{
+    width: 32px;
+    height: 32px;
+    transition: 0.7s;
+    margin: auto;
+}
+.instagram_png:hover{
+    transition: 0.7s;
+    transform: scale(1.2);
+}
+footer{
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    height: 300px;
+    display: flex;
+}
